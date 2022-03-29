@@ -13,19 +13,19 @@
 
 
 // test cases
-// Test1
-// let root = new TreeNode(1);
-//   root.left = new TreeNode(2)
-//   root.left.left = new TreeNode(3);
-//   root.left.right = new TreeNode(4);
-//   root.right = new TreeNode(5);
-//   root.right.right = new TreeNode(6)
-//   root.right.right.left = new TreeNode(7)
-//   root.right.right.right = new TreeNode(8)
-//   const result = preorderTranverse(root)
-//   // const result = inorderTranverse(root)
-//   // const result = postorderTranvser(root)
-//   console.log(result.join(','))
+Test1
+let root = new TreeNode(1);
+  root.left = new TreeNode(2)
+  root.left.left = new TreeNode(3);
+  root.left.right = new TreeNode(4);
+  root.right = new TreeNode(5);
+  root.right.right = new TreeNode(6)
+  root.right.right.left = new TreeNode(7)
+  root.right.right.right = new TreeNode(8)
+  const result = preorderTranverse(root)
+  // const result = inorderTranverse(root)
+  // const result = postorderTranvser(root)
+  console.log(result.join(','))
 
 // Test2
 // let root = null;
@@ -44,6 +44,22 @@
 //       node = stack.pop()
 //       node = node.right
 //   }
+//   return res;
+// }
+
+// recursion
+// function preorderTranverse(root) {
+//   let res = [];
+//   function preOrder(node) {
+//       if (node) {
+//           res.push(node.val);
+//           preOrder(node.left);
+//           preOrder(node.right)
+//       }
+
+//   }
+
+//   preOrder(root);
 //   return res;
 // }
 
